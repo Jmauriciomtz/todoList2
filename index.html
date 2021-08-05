@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="text-info softwareName">To-do's</h1>
+
+          <!-- task input form -->
+          <form id="create-task" class="addChore">
+            <input id="new-task-content" type="text" placeholder="What needs to be done?" required/>
+            <button class="btnCreate btn btn-info">Create</button>
+          </form>
+
+          <!-- table -->
+          <table class="table table-responsive" id="todosTable">
+            <tbody id="todo-list" class="col-xs-8">
+          
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</htm
